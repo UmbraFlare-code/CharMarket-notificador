@@ -1,0 +1,58 @@
+{
+  "events": [
+    {
+      "eventType": "PROMOCION",
+      "promoNotification": {
+        "title": "Liquidación de Verano",
+        "description": "Hasta 50% de descuento en electrónica.",
+        "validUntil": "2025-02-28",
+        "customer": {
+          "name": "Carlos Ramos",
+          "email": "carlos.ramos@example.com",
+          "phone": "+51988776655"
+        }
+      }
+    },
+    {
+      "eventType": "STOCK_MINIMO",
+      "inventoryAlertNotification": {
+        "productId": "SKU-4001",
+        "productName": "Teclado Mecánico RGB",
+        "currentStock": 4,
+        "minimumRequired": 10,
+        "warehouse": "Almacén Central"
+      }
+    },
+    {
+      "eventType": "MANTENIMIENTO",
+      "maintenanceNotification": {
+        "title": "Mantenimiento Programado",
+        "description": "El sistema estará en mantenimiento el 15/02.",
+        "scheduledDate": "2025-02-15",
+        "area": "Plataforma Web"
+      }
+    },
+    {
+      "eventType": "NUEVO_PEDIDO",
+      "orderNotification": {
+        "orderId": "ORD-90021",
+        "customerName": "Lucía Fernández",
+        "phone": "+521888444777",
+        "orderTotal": 289.90,
+        "items": [
+          { "sku": "SKU-9001", "name": "Laptop 14''", "qty": 1 },
+          { "sku": "SKU-2030", "name": "Mouse Gamer", "qty": 1 }
+        ]
+      }
+    },
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "deliveryNotification": {
+        "orderId": "ORD-90021",
+        "customerName": "Lucía Fernández",
+        "deliveryDate": "2025-02-12",
+        "receivedBy": "L. Fernández"
+      }
+    }
+  ]
+}

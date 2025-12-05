@@ -1,0 +1,65 @@
+{
+  "renderedMessages": [
+    {
+      "eventType": "PROMOCION",
+      "channel": "WHATSAPP",
+      "content": "Hola Carlos 👋 ¡Liquidación de Verano! Hasta 50% en electrónica. Válido hasta 2025-02-28."
+    },
+    {
+      "eventType": "PROMOCION",
+      "channel": "EMAIL",
+      "subject": "Nueva promoción: Liquidación de Verano",
+      "content": "<h1>Liquidación de Verano</h1><p>Hasta 50% OFF en electrónica.</p>"
+    },
+
+    {
+      "eventType": "STOCK_MINIMO",
+      "channel": "PUSH",
+      "title": "Stock Bajo",
+      "content": "Teclado Mecánico RGB: Solo quedan 4 unidades. Stock mínimo requerido: 10."
+    },
+
+    {
+      "eventType": "MANTENIMIENTO",
+      "channel": "EMAIL",
+      "subject": "Aviso de mantenimiento programado",
+      "content": "<p>El sistema tendrá mantenimiento el 15/02. Área afectada: Plataforma Web.</p>"
+    },
+    {
+      "eventType": "MANTENIMIENTO",
+      "channel": "PUSH",
+      "title": "Mantenimiento programado",
+      "content": "El sistema entrará en mantenimiento el 15/02."
+    },
+
+    {
+      "eventType": "NUEVO_PEDIDO",
+      "channel": "WHATSAPP",
+      "content": "Hola Lucía 👋 Tu pedido ORD-90021 por S/289.90 fue registrado."
+    },
+    {
+      "eventType": "NUEVO_PEDIDO",
+      "channel": "PUSH",
+      "title": "Nuevo pedido recibido",
+      "content": "Se registró el pedido ORD-90021 por S/289.90."
+    },
+
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "WHATSAPP",
+      "content": "Hola Lucía 👋 Tu pedido ORD-90021 fue entregado a las 2025-02-12."
+    },
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "EMAIL",
+      "subject": "Confirmación de entrega",
+      "content": "<p>Tu pedido ORD-90021 fue entregado y recibido por L. Fernández.</p>"
+    },
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "PUSH",
+      "title": "Pedido entregado",
+      "content": "El pedido ORD-90021 fue entregado correctamente."
+    }
+  ]
+}

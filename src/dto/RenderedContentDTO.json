@@ -1,0 +1,85 @@
+{
+  "notifications": [
+    {
+      "eventType": "PROMOCION",
+      "channel": "EMAIL",
+      "destination": "carlos.ramos@example.com",
+      "status": "PENDING",
+      "subject": "Nueva promoción: Liquidación de Verano",
+      "content": "<h1>Liquidación de Verano</h1><p>Hasta 50% OFF en electrónica.</p>"
+    },
+    {
+      "eventType": "PROMOCION",
+      "channel": "WHATSAPP",
+      "destination": "+51988776655",
+      "status": "PENDING",
+      "content": "Hola Carlos 👋 ¡Liquidación de Verano! Hasta 50% en electrónica. Válido hasta 2025-02-28."
+    },
+
+    {
+      "eventType": "STOCK_MINIMO",
+      "channel": "PUSH",
+      "destination": "system",
+      "status": "PENDING",
+      "title": "Stock Bajo",
+      "content": "Teclado Mecánico RGB: Solo quedan 4 unidades."
+    },
+
+    {
+      "eventType": "MANTENIMIENTO",
+      "channel": "EMAIL",
+      "destination": "notificaciones@sistema.com",
+      "status": "PENDING",
+      "subject": "Aviso de mantenimiento programado",
+      "content": "<p>Mantenimiento el 15/02. Área: Plataforma Web.</p>"
+    },
+    {
+      "eventType": "MANTENIMIENTO",
+      "channel": "PUSH",
+      "destination": "system",
+      "status": "PENDING",
+      "title": "Mantenimiento programado",
+      "content": "El sistema entrará en mantenimiento el 15/02."
+    },
+
+    {
+      "eventType": "NUEVO_PEDIDO",
+      "channel": "WHATSAPP",
+      "destination": "+521888444777",
+      "status": "PENDING",
+      "content": "Hola Lucía 👋 Tu pedido ORD-90021 fue registrado."
+    },
+    {
+      "eventType": "NUEVO_PEDIDO",
+      "channel": "PUSH",
+      "destination": "system",
+      "status": "PENDING",
+      "title": "Nuevo pedido recibido",
+      "content": "Se registró el pedido ORD-90021."
+    },
+
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "EMAIL",
+      "destination": "lucia.fernandez@example.com",
+      "status": "PENDING",
+      "subject": "Confirmación de entrega",
+      "content": "<p>Tu pedido ORD-90021 fue entregado.</p>"
+    },
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "WHATSAPP",
+      "destination": "+521888444777",
+      "status": "PENDING",
+      "content": "Hola Lucía 👋 Tu pedido ORD-90021 fue entregado."
+    },
+    {
+      "eventType": "CONFIRMACION_ENTREGA",
+      "channel": "PUSH",
+      "destination": "system",
+      "status": "PENDING",
+      "title": "Pedido entregado",
+      "content": "ORD-90021 entregado correctamente."
+    }
+  ]
+}
